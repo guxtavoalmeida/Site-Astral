@@ -1,0 +1,78 @@
+body{
+    margin: 0 auto;
+    background-color: gold;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: orange;
+    margin: auto;
+}
+.logo2{
+    float:left;
+    padding: 15px;
+}
+.search{
+    float: right;
+    padding: 15px;
+}
+.clearfix{
+    clear:both;
+}
+.main-menu{
+    background-color: teal;
+}
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.main-menu > ul > li{
+    display: inline-block;
+}
+.main-menu > ul > li> a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font: small;
+}
+.main-menu > ul > li> a:hover{
+    background-color: orange;
+}
+/* drop */
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.drop > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font: small;
+    background-color: black;
+}
+.drop > li > a:hover{
+    background-color: orange;
+}
+.main-menu > ul > li:hover .drop{
+    display: block;
+}
+/* Banner */
+.banner{
+    width: 1000px;
+    height: 416.66px;
+    overflow: hidden;
+
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
